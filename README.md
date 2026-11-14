@@ -1,12 +1,14 @@
 # ASCII Landscape Generator
 
-Процедурный генератор атмосферных ASCII-пейзажей в терминале на **Python**.
+> 🌐 **Language:** **English** | [Русский (README_Ru.md)](README_Ru.md)
 
-## ✨ Возможности
-- 🏔️ **Генерация горных хребтов** — наложение гармонических волн (`math.sin`) со случайным сдвигом фазы для создания уникального рельефа при каждом запуске.
-- 🌌 **Звёздное небо и адаптивный размер** — автоматическая подстройка холста под текущее разрешение окна терминала (`shutil.get_terminal_size`).
+A procedural generator for atmospheric terminal ASCII mountain and night-sky landscapes written in **Python**.
 
-## 🚀 Запуск
+## ✨ Features
+- 🏔️ **Procedural Mountain Ridges** — layers harmonic sine waves (`math.sin`) with random phase shifts to produce a unique terrain silhouette on every run.
+- 🌌 **Starry Sky & Adaptive Sizing** — automatically scales the canvas to match your current terminal dimensions (`shutil.get_terminal_size`).
+
+## 🚀 Usage
 
 ```bash
 python3 generator.py
