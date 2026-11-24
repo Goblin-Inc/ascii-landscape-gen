@@ -13,3 +13,6 @@ A procedural generator for atmospheric terminal ASCII mountain and night-sky lan
 ```bash
 python3 generator.py
 ```
+
+## 📄 License
+MIT © [Goblin-Inc](https://github.com/Goblin-Inc)
